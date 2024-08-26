@@ -1,0 +1,12 @@
+toml
+pydantic
+pyarrow
+pytorch
+torchvision
+scikit-learn
+scipy
+matplotlib
+seaborn
+pandas
+polars
+gensim

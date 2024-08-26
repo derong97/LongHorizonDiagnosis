@@ -1,0 +1,65 @@
+[autism]
+name = "AUTISM"
+color = "lightsteelblue"
+eval_times = [3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0]
+calibrated_time = 5
+[autism.filepaths]
+checkpoint_dtnn2020 = "data/checkpoints/autism/DTNN1_autism2_2020_0_2024-01-10_epoch=67_val_loss=0.118.pt"
+checkpoint_dcph2020 = "data/checkpoints/autism/DCPH1_autism_2020_0_2024-01-09_epoch=16_val_loss=3.448.pt"
+checkpoint_bc2020 = "data/checkpoints/autism/BC3_autism_2020_0_2023-12-06_epoch=69_val_loss=0.094.pt"
+checkpoint_bc2018 = "data/checkpoints/autism/BC3_autism_2018_0_2023-12-07_epoch=21_val_loss=0.106.pt"
+checkpoint_bct5 = "data/checkpoints/autism/BC3_autism_2020_5_2023-12-06_epoch=4_val_loss=0.123.pt"
+word2vec1422 = "data/dataset/autism/w2v(14-22).kvmodel"
+train1422 = "data/dataset/autism/train(14-22).parquet"
+val1422 = "data/dataset/autism/val(14-22).parquet"
+test1422 = "data/dataset/autism/test(14-22).parquet"
+
+[adhd]
+name = "ADHD"
+color = "thistle"
+eval_times = [5.0, 6.0, 7.0, 8.0, 9.2]
+calibrated_time = 7
+[adhd.filepaths]
+checkpoint_dtnn2020 = "data/checkpoints/adhd/DTNN1_adhd_3.0y_2020_0_2024-01-04_epoch=5_val_loss=0.114.pt"
+checkpoint_dcph2020 = "data/checkpoints/adhd/DCPH1_adhd_2020_0_2024-01-09_epoch=0_val_loss=3.158.pt"
+checkpoint_bc2020 = "data/checkpoints/adhd/BC3_adhd_3.0yo_2020_0_2024-01-04_epoch=15_val_loss=0.090.pt"
+checkpoint_bc2018 = "data/checkpoints/adhd/BC3_adhd_3.0yo_2018_0_2024-01-04_epoch=35_val_loss=0.124.pt"
+checkpoint_bct5 = "data/checkpoints/adhd/BC3_adhd_3.0yo_2020_5_2024-01-04_epoch=9_val_loss=0.147.pt"
+word2vec1422 = "data/dataset/adhd/w2v(14-22).kvmodel"
+train1422 = "data/dataset/adhd/train(14-22).parquet"
+val1422 = "data/dataset/adhd/val(14-22).parquet"
+test1422 = "data/dataset/adhd/test(14-22).parquet"
+
+[ear_infection]
+name = "RECURRENT OM"
+color = "lightsalmon"
+eval_times = [1.0, 1.5, 2.0, 5.0, 9.0]
+calibrated_time = 1.5
+[ear_infection.filepaths]
+checkpoint_dtnn2020 = "data/checkpoints/ear_infection/DTNN1_ear_infection_2020_0_2023-12-10_epoch=69_val_loss=0.490.pt"
+checkpoint_dtnn2020_synthetic = "data/checkpoints/ear_infection/DTNN1_synthetic_ear_infection_1.2yo_2020_0_2024-01-06_epoch=30_val_loss=0.080.pt"
+checkpoint_dcph2020 = "data/checkpoints/ear_infection/DCPH1_ear_infection_2020_0_2024-01-10_epoch=47_val_loss=4.199.pt"
+checkpoint_bc2020 = "data/checkpoints/ear_infection/BC3_ear_infection_2020_0_2023-12-06_epoch=18_val_loss=0.368.pt"
+checkpoint_bc2020_synthetic = "data/checkpoints/ear_infection/BC3_synthetic_ear_infection_1.2yo_2020_0_2024-01-06_epoch=44_val_loss=0.079.pt"
+checkpoint_bc2018 = "data/checkpoints/ear_infection/BC3_ear_infection_2018_0_2023-12-07_epoch=0_val_loss=0.392.pt"
+checkpoint_bct5 = "data/checkpoints/ear_infection/BC3_ear_infection_2020_5_2023-12-07_epoch=26_val_loss=0.437.pt"
+word2vec1422 = "data/dataset/ear_infection/w2v(14-22).kvmodel"
+train1422 = "data/dataset/ear_infection/train(14-22).parquet"
+val1422 = "data/dataset/ear_infection/val(14-22).parquet"
+test1422 = "data/dataset/ear_infection/test(14-22).parquet"
+
+[food_allergy]
+name = "FOOD ALLERGY"
+color = "lightcoral"
+eval_times = [1.0, 1.5, 2.0, 5.0, 9.0]
+calibrated_time = 2
+[food_allergy.filepaths]
+checkpoint_dtnn2020 = "data/checkpoints/food_allergy/DTNN1_food_allergy_2020_0_2023-12-07_epoch=27_val_loss=0.149.pt"
+checkpoint_dcph2020 = "data/checkpoints/food_allergy/DCPH1_food_allergy_2020_0_2024-01-09_epoch=23_val_loss=3.818.pt"
+checkpoint_bc2020 = "data/checkpoints/food_allergy/BC3_food_allergy_2020_0_2023-12-07_epoch=12_val_loss=0.113.pt"
+checkpoint_bc2018 = "data/checkpoints/food_allergy/BC3_food_allergy_2018_0_2023-12-07_epoch=67_val_loss=0.126.pt"
+checkpoint_bct5 = "data/checkpoints/food_allergy/BC3_food_allergy_2020_5_2023-12-07_epoch=30_val_loss=0.146.pt"
+word2vec1422 = "data/dataset/food_allergy/w2v(14-22).kvmodel"
+train1422 = "data/dataset/food_allergy/train(14-22).parquet"
+val1422 = "data/dataset/food_allergy/val(14-22).parquet"
+test1422 = "data/dataset/food_allergy/test(14-22).parquet"

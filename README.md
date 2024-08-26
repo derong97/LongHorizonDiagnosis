@@ -1,0 +1,3 @@
+## On the Limitations of Binary Classification for Long-Horizon Diagnosis Prediction and Advantages of a Discrete-Time Time-To-Event Approach: Empirical Analysis
+
+This repository contains the code for the paper "On the Limitations of Binary Classification for Long-Horizon Diagnosis Prediction and Advantages of a Discrete-Time Time-To-Event Approach: Empirical Analysis." The objective is to characterize inherent limitations of BC for long-horizon diagnosis prediction from EHR and to quantify the benefits of a specific time-to-event (TTE) approach, the discrete-time neural network (DTNN). 
